@@ -1,13 +1,13 @@
 import java.util.Scanner;
-class AddNumber
+class Add
 {
 public static void main(string args[]){
-int x,y,z;
+int a,b,c;
 system.out.println("Enter two integers to calculate their sum");
 Scanner in=newScanner(System.in);
-x=in.nextlnt();
-y=in.nextlnt();
-z=x+y;
+a=in.nextlnt();
+b=in.nextlnt();
+c=a+b;
 System.out.println("sum of entered integers="+z);
 }
 }
